@@ -1,0 +1,37 @@
+{
+    "name": "digital-creative/conditional-container",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "authors": [
+        {
+            "name": "Michael J Brown"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "codicastudio\\ConditionalContainer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codicastudio\\ConditionalContainer\\ConditionalContainerServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
